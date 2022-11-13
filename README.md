@@ -47,4 +47,6 @@ Regular user:
 Admin: 
 Responsible for the customer support email.For any inquiry or complaint.
 
-https://www.figma.com/file/WdvvCrK3k7aw2wxBYl2yr2/I-Rent?node-id=416%3A412&t=4CQ2hKVlQ8ADyMJR-1
+Link wireframe:
+
+https://www.figma.com/file/WdvvCrK3k7aw2wxBYl2yr2/I-Rent?node-id=301%3A2397&t=QWiidmKWGPqcPhI9-1
