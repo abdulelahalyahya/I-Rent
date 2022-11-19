@@ -1,0 +1,36 @@
+{% extends 'irentpp/base.html' %}
+
+{% block title %} Add New items {% endblock %}
+
+{% block content %}
+    <h1>Add New items</h1>
+
+    <form action="" method="items">
+        {% csrf_token %}
+        <div class="mb-3">
+            <label  class="form-label">IRent</label>
+            <input type="text" class="form-control" name="title">
+        </div>
+
+        <div class="mb-3">
+            <label  class="form-label">information</label>
+            <textarea type="text" class="form-control" name="information"></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label  class="form-label">added Date</label>
+            <input type="datetime-local" class="form-control" name="added_date" />
+        </div>
+
+
+        <div class="mb-3">
+            <label class="form-label">added ?</label>
+            <select class="form-select" name="added">
+                <option value="True">Yes</option>
+                <option value="False">No</option>
+            </select>
+        </div>
+        
+        <input class="btn btn-primary" type="submit" value="add items" />
+    </form>
+{% endblock %}
